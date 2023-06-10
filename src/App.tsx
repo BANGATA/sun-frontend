@@ -4,7 +4,9 @@ import { Home, Package, Portfolio, Testi } from "./pages";
 
 function App() {
   return (
-    <Flex minH={'100vh'} flexDir={"column"}>
+    <Flex minH={"100vh"} flexDir={"column"}>
+      {/* Routing components */}
+      <Navbar />
       <Navbar />
       <Home />
       <Package />
