@@ -1,12 +1,16 @@
 import { Flex } from "@chakra-ui/react";
-import { Navbar } from "./components";
-import { Home } from "./pages";
+import { Footer, Navbar } from "./components";
+import { Home, Package, Portfolio, Testi } from "./pages";
 
 function App() {
   return (
     <Flex minH={'100vh'} flexDir={"column"}>
       <Navbar />
       <Home />
+      <Package />
+      <Portfolio />
+      <Testi />
+      <Footer />
     </Flex>
   );
 }
